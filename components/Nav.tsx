@@ -13,14 +13,14 @@ type NavItem = {
 export default function Nav() {
   const activeSection = useActiveSection([
     "about",
-    "experience",
+    "studies",
     "projects",
     "contact",
   ]);
 
   const navItems: NavItem[] = [
     { name: "About", href: "#about" },
-    { name: "Experience", href: "#experience" },
+    { name: "Studies", href: "#studies" },
     { name: "Projects", href: "#projects" },
     { name: "Contact", href: "#contact" },
   ];
@@ -45,24 +45,24 @@ export default function Nav() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 flex flex-col lg:gap-4">
       <div className="flex flex-col gap-4 lg:pr-24 mt-6 lg:mt-0">
-        <div className="w-full flex lg:items-center lg:justify-start">
-          <Avatar className="w-24 lg:w-36 h-auto border-2 border-primary bg-secondary">
-            <AvatarImage src="./avatar.png" />
-            <AvatarFallback className="w-24 h-24 lg:w-36 lg:h-36 rounded-full border-1 border-primary">
-              AM
-            </AvatarFallback>
-          </Avatar>
-        </div>
+      <div className="w-full flex items-center justify-center lg:justify-start">
+      <Avatar className="w-24 lg:w-36 h-24 lg:h-36 border-primary">
+  <AvatarImage 
+    src="./avatar.png" 
+    className="w-auto h-full object-cover scale-110"
+  />
+</Avatar>
+
+
+</div>
         <h1 className="text-[42px] font-bold lg:text-start">
-          Hi, i&#39;m Alexander 👋
+          Hi, I&#39;m Pablo 👋
         </h1>
         <h2 className="text-xl lg:text-start">
-          Product designer, developer, founder.
+          Full Stack Developer
         </h2>
         <p className="text-lg lg:text-start text-muted-foreground">
-          I help innovative startups in AI, Web3, and Finance craft exceptional
-          user experiences, translating complex technologies into intuitive
-          interfaces that resonate with humans.
+        Bringing ideas to life through code and innovation.
         </p>
       </div>
       <nav className="lg:flex hidden">
@@ -85,7 +85,7 @@ export default function Nav() {
       <ul className="flex flex-row gap-6 mt-6 lg:mt-0">
         <Button variant="outline" size="icon">
           <a
-            href="https://github.com/0xAlexander"
+            href="https://github.com/ParadelaPablo"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -94,7 +94,7 @@ export default function Nav() {
         </Button>
         <Button variant="outline" size="icon">
           <a
-            href="https://linkedin.com/in/0xAlexander"
+            href="https://www.linkedin.com/in/pablo-paradela/"
             target="_blank"
             rel="noopener noreferrer"
           >

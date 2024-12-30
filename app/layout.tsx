@@ -7,23 +7,23 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://meikopoulos.com"),
+  metadataBase: new URL("https://paradela.com"),
   alternates: {
-    canonical: "https://meikopoulos.com",
+    canonical: "https://paradela.com",
   },
-  title: "Alexander Meikopoulos - Product Designer in AI, Web3, and Finance",
+  title: "Pablo Paradela - Full Stack Developer",
   description:
-    "Alexander Meikopoulos is a Product designer, developer & founder.",
+    "Pablo Paradela is a Full Stack Java Developer with expertise in frontend and backend development.",
   keywords:
-    "Alexander Meikopoulos, Product Designer, AI, Web3, Finance, User Experience, UI/UX Design, Design Systems, Front-end Development, Decentralized Finance, DeFi, Swoop Exchange, Vela Exchange, Stealth AI Startup, Technology, Innovation, Human-Centered Design",
+    "Pablo Paradela, Full Stack Developer, Java, Spring Boot, PostgreSQL, RESTful APIs, React, TypeScript, HTML, CSS, Frontend Development, Backend Development, UI/UX Design, Agile Development, Responsive Design, Software Engineering, Technology, Innovation, Team Collaboration, Testing, Debugging, Scalable Applications",
   openGraph: {
     locale: "en_US",
-    siteName: "Alexander Meikopoulos",
+    siteName: "Pablo Paradela",
     type: "website",
-    title: "Alexander Meikopoulos",
+    title: "Pablo Paradela",
     description:
-      "Alexander Meikopoulos is a Product designer, developer & founder.",
-    url: "https://meikopoulos.com",
+      "Pablo Paradela is a Full Stack Java Developer with expertise in frontend and backend development.",
+    url: "https://paradela.com",
     images: [
       {
         url: "./og-large-meik-2.jpg",
@@ -32,9 +32,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alexander Meikopoulos",
+    title: "Pablo Paradela",
   },
 };
+
 
 export default function RootLayout({
   children,

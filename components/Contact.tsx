@@ -1,7 +1,6 @@
 "use client";
 
-import { Mail } from "lucide-react";
-import { Button } from "./ui/button";
+import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
@@ -20,22 +19,8 @@ export default function Contact() {
           want to say hi, you can count on hearing back from me!
         </p>
       </div>
-      <div className="flex flex-row justify-center items-center gap-4 lg:px-6 mb-4">
-        <a
-          href="mailto:alexander@meikopoulos.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:cursor-pointer w-full"
-        >
-          <Button variant={"default"} className="w-full h-full">
-            <div className="flex flex-row items-center">
-              <Mail className="dark:text-white text-muted h-6 w-6" />
-              <p className="ml-3 text-2xl dark:text-white text-muted">
-                Say hello
-              </p>
-            </div>
-          </Button>
-        </a>
+      <div className="flex flex-col justify-center items-center gap-4 lg:px-6 mb-4">
+        <ContactForm />
       </div>
     </section>
   );
