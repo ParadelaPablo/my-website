@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      unoptimized: true, // Desactiva la optimización automática de imágenes.
+      unoptimized: true,
     },
-    output: "export", // Configura la exportación como estática.
+    output: "export",
+    assetPrefix: "./",
+    trailingSlash: true, // Asegura que las rutas estáticas terminen en "/"
   };
   
   module.exports = nextConfig;
