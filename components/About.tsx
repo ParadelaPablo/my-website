@@ -9,7 +9,7 @@ export default function About() {
   </div>
   <div className="flex flex-col gap-4">
     <p className="text-start text-muted-foreground lg:px-6">
-      <span className="text-white">Full Stack Java Developer</span> with expertise in{' '}
+      <span className="text-primary dark:text-white">Full Stack Java Developer</span> with expertise in{' '}
       <a
         className="no-wrap text-primary dark:text-white"
         href="https://www.java.com"
@@ -34,13 +34,13 @@ export default function About() {
       >
         React
       </a>, specializing in building scalable and user-focused solutions. Skilled in creating{' '}
-      <span className="text-white">robust applications</span> with efficient architectures and{' '}
-      <span className="text-white">intuitive designs</span>, delivering high-quality results in dynamic and demanding environments.
+      <span className="text-primary dark:text-white">robust applications</span> with efficient architectures and{' '}
+      <span className="text-primary dark:text-white">intuitive designs</span>, delivering high-quality results in dynamic and demanding environments.
     </p>
     <p className="text-start text-muted-foreground lg:px-6">
       Experienced in integrating frontend and backend technologies to develop efficient platforms that address real-world needs. Strong problem-solving abilities,{' '}
-      <span className="text-white">attention to detail</span>, and effective multitasking. Background in journalism enhances{' '}
-      <span className="text-white">communication and organizational skills</span>, fostering collaboration and a deep understanding of user requirements.
+      <span className="text-primary dark:text-white">attention to detail</span>, and effective multitasking. Background in journalism enhances{' '}
+      <span className="text-primary dark:text-white">communication and organizational skills</span>, fostering collaboration and a deep understanding of user requirements.
     </p>
   </div>
 </section>
