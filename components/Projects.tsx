@@ -12,31 +12,38 @@ import { MoveUpRight } from "lucide-react";
 
 const myProjects = [
   {
-    imagePath: "/wanderwise.png", 
+    imagePath: "https://raw.githubusercontent.com/ParadelaPablo/project-images/main/wanderwise.png",
     title: "WanderWise - Travel Planner",
     description:
-      "WanderWise is a platform for planning road trips efficiently...",
+      "WanderWise is a platform for planning road trips efficiently. It provides users with tools to organize routes, calculate travel costs, and discover new destinations.",
     skills: ["React", "Node.js", "Express", "MongoDB", "CSS", "HTML"],
     links: [
       { label: "GitHub Repo", url: "https://github.com/ParadelaPablo/wanderwise" },
     ],
   },
   {
-    imagePath: "/collabtask.png",
+    imagePath: "https://raw.githubusercontent.com/ParadelaPablo/project-images/main/collabtask.png",
     title: "CollabTask - Task Manager",
     description:
-      "CollabTask is a collaborative task management app built with Java...",
-    skills: ["Java", "Spring Boot", "PostgreSQL", "React", "TypeScript"],
+      "CollabTask is a collaborative task management app built with Java and Spring Boot for the backend, and React for the frontend. It allows team members to organize tasks, assign responsibilities, and track progress.",
+    skills: [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "React",
+      "TypeScript",
+      "Render",
+    ],
     links: [
       { label: "Live Site", url: "https://collabtask-frontend.onrender.com/" },
       { label: "GitHub Repo", url: "https://github.com/ParadelaPablo/task-manager" },
     ],
   },
   {
-    imagePath: "/indracafe.png",
+    imagePath: "https://raw.githubusercontent.com/ParadelaPablo/project-images/main/indracafe.png",
     title: "Indra Cafe - Website",
     description:
-      "A minimalist and visually appealing website built for Indra Cafe...",
+      "A minimalist and visually appealing website built for Indra Cafe using only HTML and CSS. It features a clean layout showcasing the cafe's menu, location, and gallery.",
     skills: ["HTML", "CSS"],
     links: [
       { label: "Live Site", url: "https://indracafe.onrender.com/" },
@@ -44,8 +51,6 @@ const myProjects = [
     ],
   },
 ];
-
-
 
 export default function Projects() {
   return (
@@ -55,7 +60,7 @@ export default function Projects() {
           Projects
         </h2>
       </div>
-      <div>
+      <>
         {myProjects.map((project, index) => (
           <Card
             key={index}
@@ -97,7 +102,7 @@ export default function Projects() {
             </CardContent>
           </Card>
         ))}
-      </div>
+      </>
     </section>
   );
 }
