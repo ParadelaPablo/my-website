@@ -12,7 +12,7 @@ import { MoveUpRight } from "lucide-react";
 
 const myProjects = [
   {
-    imagePath: "/wanderwise.png",
+    imagePath: "./wanderwise.png", 
     title: "WanderWise - Travel Planner",
     description:
       "WanderWise is a platform for planning road trips efficiently. It provides users with tools to organize routes, calculate travel costs, and discover new destinations.",
@@ -22,7 +22,7 @@ const myProjects = [
     ],
   },
   {
-    imagePath: "/collabtask.png",
+    imagePath: "./collabtask.png", 
     title: "CollabTask - Task Manager",
     description:
       "CollabTask is a collaborative task management app built with Java and Spring Boot for the backend, and React for the frontend. It allows team members to organize tasks, assign responsibilities, and track progress.",
@@ -40,13 +40,13 @@ const myProjects = [
     ],
   },
   {
-    imagePath: "/indracafe.png",
+    imagePath: "./indracafe.png", 
     title: "Indra Cafe - Website",
     description:
       "A minimalist and visually appealing website built for Indra Cafe using only HTML and CSS. It features a clean layout showcasing the cafe's menu, location, and gallery.",
     skills: ["HTML", "CSS"],
     links: [
-      { label: "Live Site", url: "https://indracafe.onrender.com/" }, 
+      { label: "Live Site", url: "https://indracafe.onrender.com/" },
       { label: "GitHub Repo", url: "https://github.com/ParadelaPablo/IndraCafe" },
     ],
   },
