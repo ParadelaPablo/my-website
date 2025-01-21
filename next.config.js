@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-      unoptimized: true, // Desactiva la optimización automática de imágenes
+      unoptimized: true, // Desactiva la optimización automática de imágenes.
     },
-    output: "export", // Exportación estática para sitios estáticos
-    basePath: "", // No se usa un subdirectorio base
+    output: "export", // Configura la exportación como estática.
   };
   
   module.exports = nextConfig;
