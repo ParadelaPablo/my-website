@@ -12,7 +12,7 @@ import { MoveUpRight } from "lucide-react";
 
 const myProjects = [
   {
-    imagePath: "./wanderwise.png", 
+    imagePath: "/wanderwise.png", 
     title: "WanderWise - Travel Planner",
     description:
       "WanderWise is a platform for planning road trips efficiently...",
@@ -22,7 +22,7 @@ const myProjects = [
     ],
   },
   {
-    imagePath: "./collabtask.png",
+    imagePath: "/collabtask.png",
     title: "CollabTask - Task Manager",
     description:
       "CollabTask is a collaborative task management app built with Java...",
@@ -33,7 +33,7 @@ const myProjects = [
     ],
   },
   {
-    imagePath: "./indracafe.png",
+    imagePath: "/indracafe.png",
     title: "Indra Cafe - Website",
     description:
       "A minimalist and visually appealing website built for Indra Cafe...",
