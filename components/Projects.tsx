@@ -12,7 +12,7 @@ import { MoveUpRight } from "lucide-react";
 
 const myProjects = [
   {
-    imagePath: "./wanderwise.png", 
+    imagePath: "https://paradela.onrender.com/wanderwise.png", // Ruta absoluta
     title: "WanderWise - Travel Planner",
     description:
       "WanderWise is a platform for planning road trips efficiently. It provides users with tools to organize routes, calculate travel costs, and discover new destinations.",
@@ -22,7 +22,7 @@ const myProjects = [
     ],
   },
   {
-    imagePath: "./collabtask.png", 
+    imagePath: "https://paradela.onrender.com/collabtask.png", // Ruta absoluta
     title: "CollabTask - Task Manager",
     description:
       "CollabTask is a collaborative task management app built with Java and Spring Boot for the backend, and React for the frontend. It allows team members to organize tasks, assign responsibilities, and track progress.",
@@ -40,7 +40,7 @@ const myProjects = [
     ],
   },
   {
-    imagePath: "./indracafe.png", 
+    imagePath: "https://paradela.onrender.com/indracafe.png", // Ruta absoluta
     title: "Indra Cafe - Website",
     description:
       "A minimalist and visually appealing website built for Indra Cafe using only HTML and CSS. It features a clean layout showcasing the cafe's menu, location, and gallery.",
@@ -60,7 +60,7 @@ export default function Projects() {
           Projects
         </h2>
       </div>
-      <>
+      <div>
         {myProjects.map((project, index) => (
           <Card
             key={index}
@@ -102,7 +102,7 @@ export default function Projects() {
             </CardContent>
           </Card>
         ))}
-      </>
+      </div>
     </section>
   );
 }
