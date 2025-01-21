@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export", // Esto habilita la exportación estática
+    output: 'export',
+    reactStrictMode: true,
+    images: {
+      unoptimized: true, 
+    },
   };
   
   module.exports = nextConfig;
